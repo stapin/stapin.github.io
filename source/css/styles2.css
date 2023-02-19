@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url("../media/bg_minecraft.jpg");
+    background-size: cover;
+    color: antiquewhite;
+    margin: 0;
+    padding: 0;
+}
+
+.avatar {
+    height: 100px;
+    border-radius: 50%;
+}
+
+.bg-video {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.bg-video video {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.on-video {
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+
+.playMus {
+    background-color: rgba(0,0, 0, 0);
+    border: 0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.playImg {
+    height: 40px;
+}
+
+.stopMus {
+    background-color: black;
+    height: 23px;
+    width: 23px;
+    border-radius: 5px;
+    /* margin-bottom: 20px; */
+    display: inline-block;
+}
+
+.nav-bar {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    background-color: rgba(24, 86, 125, 0.451);
+    justify-content: space-between;
+
+}
+
+.player {
+    display: flex;
+    align-items: center;
+    justify-self: auto;
+    margin-right: 20px;
+}
+
+.home-btn {
+    margin-left: 20px;
+    font-family: 'comic sans ms';
+    font-size: 20px;
+    color:rgb(0, 204, 255);
+}
+
+.profile-page {
+    width: 75%;
+    margin: auto;
+    /* background-color: rgba(18, 140, 255, 0.238); */
+    border-radius: 10px;
+    display: flex;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+.profile-icon {
+    width: 25%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-info {
+    width: 50%;
+    margin: 0;
+}
+
+.right-col {
+    width: 25%;
+    margin: 0;
+}
+
+/* .float-hor {
+    float: left;
+    border: 1px solid antiquewhite;
+} */

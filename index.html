@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Задание 1</title>
+    <link rel="stylesheet" href="./source/css/styles2.css">
+    <script src="./source/js/music.js"></script>
+    
+</head>
+<body>
+
+    <div class="bg-video">
+        <video src="./source/media/video_bg_minecraft_Trim.mp4" type="video/mp4" autoplay loop muted></video>
+
+        <div class="on-video">
+            <nav class="nav-bar">
+                <div class="home-btn">
+                    Minecraft
+                </div>
+                <div class="player">
+                    <button onclick="playMusic()" class="playMus"><img src="./source/media/play.png" alt="no file" class="playImg"></button>
+                    <button onclick="stopMusic()" class="stopMus"></button>
+                </div>
+            </nav>
+            
+            <div class="profile-page">
+                <div class="profile-icon float-hor">
+                    <h3>Профиль игрока</h3>
+                    <img src="./source/media/avatar.jpg" alt="No file" class="avatar">
+                </div>
+                <div class="profile-info float-hor">
+                    <h3>Информация</h3>
+                    <ul>
+                        <li>Имя: -</li>
+                        <li>Возраст: -</li>
+                        <li>Пол: -</li>
+                    </ul>
+                </div>
+                <div class="float-hor right-col">
+                    <h3>Достижения</h3>
+                    <ul class="">
+                        <li>Нарубить дров</li>
+                        <li>Кулинар</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+</html>
